@@ -1,6 +1,7 @@
 html, body {
     margin: 0;
     padding: 0;
+    font: sans-serif;
 }
 
 
@@ -91,7 +92,7 @@ nav > ul {
     
 }
 
-button {
+#btn1 {
     background-color: #3882f6;
     color: white;
     width: 140px;
@@ -114,9 +115,9 @@ button {
     text-align: center;
 }
 
-#quote {
+#quoteDiv {
     background-color: #E5E7EB;
-    height: 20vw;
+    height: 25vw;
 }
 
 .aboutIMG {
@@ -124,19 +125,106 @@ button {
     border: 3px solid #3882f6;
     height: 175px;
     width: 175px;
-    margin: 20px;
+    /* margin: 20px; */
     border-radius: 10px;
 }
 
-/* #belowText {
-    width: 200px;
+#imgContainer {
+    vertical-align: top;
+    display: inline-block;
     text-align: center;
-    margin:0;
+    width: 175px;
+}
 
-} */
+#belowText {
+    display: block;
+    text-align: center;
+    color: #515255;
+}
 
 #infoHeader{
     color: #1f2937;
     font-size: 36px;
     font-weight: bolder;
+}
+
+#quoteContainer {
+    /* width: 700px; */
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    flex-direction: column;
+    margin-right: 300px;
+    margin-left: 300px;
+}
+
+#quote {
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    /* text-align: center; */
+}
+
+#quoter {
+    font-weight: 900;
+    font-size: 24px;
+    text-align: right;
+}
+
+#signUp {
+    height: 20vw;
+    display: flex;
+    justify-content: center;
+}
+
+#signUpContainer {
+    margin-top: 60px;
+    background-color: #3882f6;
+    width: 1000px;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 5px;
+}
+
+#signP {
+    padding: 30px;
+    margin-left: 140px;
+    color: #E5E7EB;
+}
+
+#p1 {
+    font-size: 24px;
+    margin-bottom: 0;
+    font-weight: 900;
+
+}
+
+#p2{
+    margin-top: 0;
+}
+
+footer {
+    background-color: #1f2937;
+    height: 7vw;
+    text-align: center;
+    color: #E5E7EB;
+}
+
+#btn2 {
+    border: solid white 2px;
+    background-color: #3882f6;
+    color: white;
+    font-size: 18px;
+    height: 40px;
+    border-radius: 5px;
+    width: 130px;
+    margin-left: 150px;
+    margin-top: 58px;
+}
+
+footer > p {
+    padding: 30px;
+    font-size: 20px;
+
 }
